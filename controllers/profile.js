@@ -213,4 +213,8 @@ export const getUserProfile = async (req, res) => {
     console.error(err);
     res.status(500).json({ success: false, message: 'Error fetching profile' });
   }
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> origin/main
